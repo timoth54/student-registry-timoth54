@@ -30,6 +30,7 @@ namespace StudentRegister
             students.Add(new Student("Jack", "Nimble"));
             students.Add(new Student("Mary", "Contrary"));
             StudentList.ItemsSource = students;
+            SelectedStudent.Content = students;
         }
 
         public void AddStudent(object sender, RoutedEventArgs e)
